@@ -13,7 +13,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li className="md:text-xl font-bold">
-        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="/skills" spy={true} smooth={true} offset={50} duration={500}>
         Skills
         </Link>
       </li>
