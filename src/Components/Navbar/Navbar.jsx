@@ -8,23 +8,23 @@ const Navbar = () => {
   const navlinks = (
     <>
       <li className=" text-md md:text-xl font-bold">
-        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="/" spy={true} smooth={true} offset={-100} duration={500}>
           Home
         </Link>
       </li>
       <li className="md:text-xl font-bold">
-        <Link to="/skills" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="/skills" spy={true} smooth={true} offset={-100} duration={500}>
         Skills
         </Link>
       </li>
       <li className="md:text-xl font-bold">
-        <Link to="/projects" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="/projects" spy={true} smooth={true} offset={-100} duration={500}>
           Projects
         </Link>
       </li>
       <li className="md:text-xl font-bold">
-        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
-          
+        <Link to="/contact" spy={true} smooth={true} offset={-100} duration={500}>
+          Contact
         </Link>
       </li>
     </>
