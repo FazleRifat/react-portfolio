@@ -7,7 +7,7 @@ import donation from '../../assets/images/Donation- Google Chrome 10_10_2023 10_
 const ProjectsCards = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 my-5'>
-      <div className="card w-80 bg-base-100 shadow-xl border mx-auto ml-12 md:ml-0">
+      <div className="card w-80 bg-base-100 shadow-xl border mx-auto ">
         <figure className="px-10 pt-10">
           <img
             src={event}
@@ -22,7 +22,7 @@ const ProjectsCards = () => {
           </div>
         </div>
       </div>
-      <div className="card w-80 bg-base-100 shadow-xl border mx-auto ml-12 md:ml-0 ">
+      <div className="card w-80 bg-base-100 shadow-xl border mx-auto  ">
         <figure className="px-10 pt-10">
           <img
             src={dragon}
@@ -37,7 +37,7 @@ const ProjectsCards = () => {
           </div>
         </div>
       </div>
-      <div className="card w-80 bg-base-100 shadow-xl border mx-auto ml-12 md:ml-0">
+      <div className="card w-80 bg-base-100 shadow-xl border mx-auto ">
         <figure className="px-10 pt-10">
           <img
             src={donation}

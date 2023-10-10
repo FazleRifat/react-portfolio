@@ -2,10 +2,10 @@ import img from "../../assets/images/my photo.png";
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-base-100 ml-10 md:ml-0">
+      <div className="hero min-h-screen bg-base-100 ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={img} className="max-w-xs md:max-w-xl" />
-          <div>
+          <div className="ml-4">
             <h1 className="text-5xl font-bold">Fazle Rifat</h1>
             <h2 className="text-2xl font-bold">Front-End Web Developer</h2>
             <p className="py-6">
