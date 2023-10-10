@@ -31,7 +31,7 @@ const SkillCards = () => {
         </figure>
         <div>
           <h2 className=" text-center text-4xl font-bold" >
-            JavaScript
+            JS
           </h2>
         </div>
       </div>

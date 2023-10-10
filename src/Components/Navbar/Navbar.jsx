@@ -18,7 +18,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li className="md:text-xl font-bold">
-        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="/projects" spy={true} smooth={true} offset={50} duration={500}>
           Projects
         </Link>
       </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
               {navlinks}
             </ul>
           </div>
-          <a className="normal-case text-xl md:text-3xl font-bold ">Fazle.Dev</a>
+          <a className="normal-case text-xl md:text-3xl font-bold " href="/">Fazle.Dev</a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 ">{navlinks}</ul>
