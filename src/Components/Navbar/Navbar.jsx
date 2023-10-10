@@ -40,7 +40,7 @@ const Navbar = () => {
               <AiOutlineClose className="text-4xl font-bold mr-4"></AiOutlineClose>
             )}
             <ul
-              className={`absolute top-12 ${slider?"hidden":''} left-0 z-10 shadow bg-base-100 rounded-box w-32`}
+              className={`absolute top-12 ${slider?"hidden":''} left-0 z-10 shadow bg-base-200 rounded-box w-32`}
             >
               {navlinks}
             </ul>

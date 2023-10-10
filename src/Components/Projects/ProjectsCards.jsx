@@ -8,7 +8,7 @@ const ProjectsCards = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 my-5'>
       <div className="card w-80 bg-base-100 shadow-xl border mx-auto ">
-        <figure className="px-10 pt-10">
+        <figure className="px-4 pt-10">
           <img
             src={event}
             alt="Event management"
@@ -18,12 +18,12 @@ const ProjectsCards = () => {
         <div className="card-body items-center text-center">
           <h2 className="card-title">Event management</h2>
           <div className="card-actions">
-          <a href="https://monumental-snickerdoodle-54de10.netlify.app/"><button className="btn btn-wide">Visit</button></a>
+          <a href="https://education-training-debbb.web.app/"><button className="btn btn-wide">Visit</button></a>
           </div>
         </div>
       </div>
       <div className="card w-80 bg-base-100 shadow-xl border mx-auto  ">
-        <figure className="px-10 pt-10">
+        <figure className="px-4 pt-10">
           <img
             src={dragon}
             alt="Dragon news"
@@ -38,7 +38,7 @@ const ProjectsCards = () => {
         </div>
       </div>
       <div className="card w-80 bg-base-100 shadow-xl border mx-auto ">
-        <figure className="px-10 pt-10">
+        <figure className="px-4 pt-10">
           <img
             src={donation}
             alt="Donation camp"
