@@ -1,6 +1,6 @@
 import event from '../../assets/images/Education and Training - Google Chrome 10_10_2023 10_08_06 AM.png';
 import dragon from '../../assets/images/Dragon News - Google Chrome 10_10_2023 10_08_23 AM.png';
-import donation from '../../assets/images/Donation- Google Chrome 10_10_2023 10_09_12 AM.png';
+import biker from '../../assets/images/Biker Zone - Google Chrome 10_11_2023 1_02_51 PM.png';
 
 
 
@@ -40,15 +40,15 @@ const ProjectsCards = () => {
       <div className="card w-80 bg-base-100 shadow-xl border mx-auto ">
         <figure className="px-4 pt-10">
           <img
-            src={donation}
-            alt="Donation camp"
+            src={biker}
+            alt="Biker zone"
             className="rounded-xl"
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">Donation camp</h2>
+          <h2 className="card-title">Biker zone</h2>
           <div className="card-actions">
-            <a href="https://frolicking-starship-63ea8f.netlify.app"><button className="btn btn-wide">Visit</button></a>
+            <a href="https://fazlerifat.github.io/Biker-Zone/"><button className="btn btn-wide">Visit</button></a>
           </div>
         </div>
       </div>

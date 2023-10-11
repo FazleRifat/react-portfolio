@@ -2,9 +2,10 @@ import {AiFillHtml5} from "react-icons/ai";
 import {DiCss3} from "react-icons/di";
 import {DiJavascript} from "react-icons/di";
 import {DiReact} from "react-icons/di";
+import {BiLogoTailwindCss} from "react-icons/bi";
 const SkillCards = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 my-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 my-5">
       <div className="card max-w-[15rem] h-[13rem] p-5 rounded-box border bg-base-200 shadow-xl mx-auto md:mx-0">
         <figure>
           <p><AiFillHtml5 className="text-9xl"></AiFillHtml5></p>
@@ -22,6 +23,16 @@ const SkillCards = () => {
         <div>
           <h2 className=" text-center text-4xl font-bold" >
             CSS
+          </h2>
+        </div>
+      </div>
+      <div className="card max-w-[15rem] h-[13rem] p-5 rounded-box border bg-base-200 shadow-xl mx-auto md:mx-0">
+        <figure>
+          <p><BiLogoTailwindCss className="text-9xl"></BiLogoTailwindCss></p>
+        </figure>
+        <div>
+          <h2 className=" text-center text-4xl font-bold" >
+            TW
           </h2>
         </div>
       </div>

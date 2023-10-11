@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div id="/contact">
       <div className="max-w-max mx-auto">
-        <h3 className=" text-center text-5xl my-7 md:text-6xl font-semibold">
+        <h3 className=" text-center text-5xl my-7 md:text-6xl font-semibold ">
           Contact
         </h3>
         <div className="flex items-center gap-1 w-80 p-6 border">
